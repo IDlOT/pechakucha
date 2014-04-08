@@ -1,0 +1,12 @@
+<p>
+	<strong>Japanese:</strong>
+	<%= @card.japanese %>
+</p>
+
+<p>
+	<strong>English:</strong>
+	<%= @card.english %>
+</p>
+
+<%= link_to 'Back', cards_path %>
+| <%= link_to 'Edit', edit_card_path(@card) %>
