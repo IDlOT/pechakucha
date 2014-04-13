@@ -1,0 +1,43 @@
+body{ 	background-color: lightblue;
+		overflow: hidden;
+		}
+
+#go{	
+		font-family: 'fontin_sans_rgbold';
+		position: relative;
+		text-align: center;
+		background-color: rgba(153, 202, 235, .6);
+		width:50%;
+		margin-left: 25%;
+		margin-right: 25%;
+		height: 80%;
+		margin-bottom: 10%;
+		margin-top: 10%;
+		font-size: 100px;
+		padding: 0;
+		z-index: 15;
+}
+
+#shibuya {
+	position: absolute;
+	background-image: url(<%= asset_path 'shibuya-night-s.jpg' %>);
+	background-position: center;
+	background-repeat: no-repeat;
+	top:-7%;
+	width: 110%;
+	z-index: -1;
+	left: -10%;
+	height: 107%;
+}
+
+a:link {text-decoration: none;
+		color: #007AAC;
+
+		border-radius:20px;}
+a:visited { color: #007AAC;}
+a:hover {text-decoration: underline;}
+a.enter{
+		border: 10px solid #99CAEB;
+		border-radius: 20px;
+		text-decoration: none;}
+

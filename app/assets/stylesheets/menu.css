@@ -1,0 +1,85 @@
+*{ margin:0;
+padding: 0;}
+
+@font-face {
+    font-family: 'fontin_sans_rgbold';
+    src: url('/assets/fontin_sans_b_45b-webfont.eot');
+    src: url('/assets/fontin_sans_b_45b-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/assets/fontin_sans_b_45b-webfont.woff') format('woff'),
+         url('/assets/fontin_sans_b_45b-webfont.ttf') format('truetype'),
+         url('/assets/fontin_sans_b_45b-webfont.svg#fontin_sans_rgbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+.navbar{
+	background-color: #99CAEB;
+	border-bottom: 1px solid #007AAC;
+	height:70px;
+	width:100%;
+	font-family: 'fontin_sans_rgbold';
+	z-index: 1000
+}
+#logo { 	
+		font-family: 'Papyrus';
+		color: #007ACC;
+		text-align: left;
+		margin-left:20%;
+		font-size: 50px;
+		width:20%;
+		height:70px;
+		border-right: 1px dotted #007AAC;
+		display: inline-block;
+		margin-right: 0;
+}
+#tab1{
+	top:0;
+	position:absolute;
+	text-align: center;
+	width:10%;
+	height:70px;
+	vertical-align: middle;
+	display: inline-block;
+	border-right: 1px dotted #007AAC;
+	line-height: 70px;
+
+}
+#tab2{
+	top:0;
+	position:absolute;
+	text-align: center;
+	width:10%;
+	height:70px;
+	vertical-align: middle;
+	display: inline-block;
+	border-right: 1px dotted #007AAC;
+	margin-left: 10%;
+	line-height: 70px;
+}
+
+
+#tab3{
+	top:0;
+	position:absolute;
+	text-align: center;
+	width:10%;
+	height:70px;
+	vertical-align: middle;
+	display: inline-block;
+	border-right: 1px dotted #007AAC;
+	margin-left: 20%;
+	line-height: 70px;
+
+}
+#tab4{
+	top:0;
+	position:absolute;
+	text-align: center;
+	width:10%;
+	height:70px;
+	vertical-align: middle;
+	display: inline-block;
+	margin-left: 30%;
+	line-height: 70px;
+}
+
+
